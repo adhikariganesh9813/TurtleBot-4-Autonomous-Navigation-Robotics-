@@ -2,8 +2,6 @@
 
 A simulated TurtleBot 4 maps an unknown Gazebo warehouse with SLAM, saves the map, localizes on it with AMCL, and drives itself to user-selected goals with the Nav2 stack. The project also measures how the costmap inflation radius trades clearance against travel time, and documents the system-level failures found while bringing up the stack in Docker.
 
-Lab 1 for CS 5331 Mobile Robot Systems, Texas Tech University (Fall 2026).
-
 ![Robot localized on the saved map in RViz](figures/02_rviz_amcl_goal1.jpg)
 
 ## Results at a glance
